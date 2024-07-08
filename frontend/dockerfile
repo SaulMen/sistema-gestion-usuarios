@@ -1,0 +1,22 @@
+FROM php:8.1.2-alpine
+
+# Copiar composer 
+COPY composer.lock composer.json /var/www/
+
+WORKDIR /var/www
+
+# Instalar composer 
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+# Intalar dependencias de PHP
+#RUN composer install
+
+# Copiar los archivos de la aplicacion
+COPY . .
+
+CMD php artisan serve --host=0.0.0.0 --port=8181
+
+EXPOSE 8181
+
+# docker build -t laravel_proyecto .
+# docker run -p 8181:8181 laravel_proyecto
