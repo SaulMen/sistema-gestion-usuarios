@@ -1,0 +1,45 @@
+version: '3'
+services:
+    db:
+        image: postgres
+        container_name: mydatabase
+        ports:
+            - "5432:5432"
+        environment:
+            POSTGRES_PASSWORD: 1234
+        
+        volumes:
+            - ./postgres-backup:/var/lib/postgresql
+        networks:
+            - mern-network
+        
+
+    backend:
+        build: ./backend
+        container_name: api-go
+        restart: always
+        ports:
+            - "8080:8080"
+        
+        depends_on:
+            - db
+        
+        networks:
+            - mern-network
+            
+    front:
+        image: saulmen/laravel_frontend
+        restart: always
+        container_name: client
+        ports:
+            - "8181:8181"
+        depends_on:
+            - backend
+        networks:
+            - mern-network
+networks:
+    mern-network:
+        driver: bridge
+
+volumes:
+    postgres-backup:
