@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A64748F4-BBCD-BBC2-A89E-53F927331376" name="Curso">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 01:55:21 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_curso" id="C25B8DE7-5E21-5DD7-29DC-126A44309FE5">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 01:55:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D15AC576-3560-1488-9A50-A420641EC0D1">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 01:55:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creditos_necesarios" id="10AA9681-2C80-4894-82AB-59E8983A1AEC">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 01:57:39 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creditos_otorga" id="EFD1A99B-9684-B320-10C2-27A5EAAB83A4">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 01:58:32 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obligatorio" id="98272E45-C629-A59F-8F2C-A39220A56BA6">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 02:06:22 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="078350CF-4368-9304-ECD8-1233E37C503C" name="Curso PK">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 02:09:35 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C25B8DE7-5E21-5DD7-29DC-126A44309FE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

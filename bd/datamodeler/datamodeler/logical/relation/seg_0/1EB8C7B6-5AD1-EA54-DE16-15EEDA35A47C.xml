@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Simultaneidad" directorySegmentName="seg_0" id="1EB8C7B6-5AD1-EA54-DE16-15EEDA35A47C">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-20 17:53:34 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="11C1684D-ECD4-6CFF-A159-44ACA1DE43DB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>52003399-C52F-13B3-7523-8866D6B5B804</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FC5E18A-6BE9-74E8-B469-4CDD26161C6A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

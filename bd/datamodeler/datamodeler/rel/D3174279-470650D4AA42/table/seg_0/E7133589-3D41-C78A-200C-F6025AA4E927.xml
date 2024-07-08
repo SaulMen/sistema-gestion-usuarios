@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7133589-3D41-C78A-200C-F6025AA4E927" name="Curso">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>A64748F4-BBCD-BBC2-A89E-53F927331376</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_curso" id="392F6837-2B77-F7E7-EE78-813EC891A370">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>C25B8DE7-5E21-5DD7-29DC-126A44309FE5</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C8D49415-709C-C184-90B9-59D9949BC2CB">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>D15AC576-3560-1488-9A50-A420641EC0D1</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creditos_necesarios" id="99D56AAE-6FA9-B5D5-7A90-7CF9478A5D3E">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>10AA9681-2C80-4894-82AB-59E8983A1AEC</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creditos_otorga" id="69C18802-436E-AF4F-B121-62B3EEA6ECB8">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>EFD1A99B-9684-B320-10C2-27A5EAAB83A4</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obligatorio" id="320E45EB-8651-CA2A-D43E-A8191F9AE9D3">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>98272E45-C629-A59F-8F2C-A39220A56BA6</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02583FD1-5EA8-B8FC-33E2-84D02E0ACC65" name="Curso_PK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>078350CF-4368-9304-ECD8-1233E37C503C</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="392F6837-2B77-F7E7-EE78-813EC891A370"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

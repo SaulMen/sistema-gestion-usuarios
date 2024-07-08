@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34419A1E-7A06-6904-C764-3BB6E5FAA951" name="Prerequisito">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>8F5BC23C-6E11-3942-8B73-D275E74F91C0</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Curso_codigo_curso" id="FB441F78-5532-7B71-9513-907FE169207B">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>16786900-CB6B-3386-2088-95FD0A70774B</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40A2FF8F-D921-3645-D62D-901235BBA2AC" referredColumn="392F6837-2B77-F7E7-EE78-813EC891A370"/>
+</associations>
+</Column>
+<Column name="codigo_pre_requisto" id="07DB4C1A-641F-FBDA-5F3D-48123CE3D8D4">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>C00A4F64-FF30-65F8-20F4-BC9C7A3937C1</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75732290-B21D-B496-D1F0-4A451A30E86B" name="Prerequisito_PK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>6CBF5D12-9142-0B90-9C21-9AE5326C8252</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB441F78-5532-7B71-9513-907FE169207B"/>
+<colUsage columnID="07DB4C1A-641F-FBDA-5F3D-48123CE3D8D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE7D58AA-07F7-DB60-55E8-87244E929AE2" name="Prerequisito_Curso_FK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>FC9E221C-6674-B950-F772-6E002FF1F1E6</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB441F78-5532-7B71-9513-907FE169207B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

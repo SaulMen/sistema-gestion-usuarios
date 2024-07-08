@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CarreraCurso" directorySegmentName="seg_0" id="B27CA6A0-08DA-F449-E385-50DC76E3D865">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 06:11:16 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>A64748F4-BBCD-BBC2-A89E-53F927331376</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>52003399-C52F-13B3-7523-8866D6B5B804</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

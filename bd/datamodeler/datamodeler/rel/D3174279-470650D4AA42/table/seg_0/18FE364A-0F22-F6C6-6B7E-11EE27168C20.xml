@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18FE364A-0F22-F6C6-6B7E-11EE27168C20" name="CarreraCurso">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Curso_codigo_curso" id="9CE2B905-AFF3-094C-A984-DB28CDF882F7">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C68B14C2-11AA-6C52-8CB9-A7DAD3D5F337" referredColumn="392F6837-2B77-F7E7-EE78-813EC891A370"/>
+</associations>
+</Column>
+<Column name="Carrera_id_carrera" id="70236C6F-9446-B379-6738-01919C2A5B5F">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AAD84FC-A7BD-E5BB-36A9-F5A3929133FE" referredColumn="B08C3458-E480-4755-F87D-6F112D1E10B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C892DCD7-708D-330B-F88E-DEF5DD9CE614" name="CarreraCurso_PK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CE2B905-AFF3-094C-A984-DB28CDF882F7"/>
+<colUsage columnID="70236C6F-9446-B379-6738-01919C2A5B5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D496E5D-8C09-7A81-E435-7075605AFDF8" name="CarreraCurso_Curso_FK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>B27CA6A0-08DA-F449-E385-50DC76E3D865</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CE2B905-AFF3-094C-A984-DB28CDF882F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54D1E170-CB8C-3956-8ADE-302F30E3ECAD" name="CarreraCurso_Carrera_FK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>B27CA6A0-08DA-F449-E385-50DC76E3D865</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70236C6F-9446-B379-6738-01919C2A5B5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3424ED3B-615D-2A16-0263-4B847296F1CE" name="Nota">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-14 00:38:19 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_nota" id="4FE33BD8-E727-C198-C84D-F94DD742F52F">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-20 20:32:23 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="8593F0B6-2BE4-83D7-A8A3-650BD40D92F1">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-14 00:39:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seccion" id="B58848A0-2635-1234-F35E-4ECD7D819C58">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-14 00:40:23 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota" id="4125DD6C-D625-A7E8-DC3B-EC75832DDA4C">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-14 03:39:38 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="3D85FD6D-1E9B-78A3-CC03-BF6E67F320D0">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-20 06:16:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_curso" id="9718812C-9A77-F009-38F2-6687195E7726">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-20 20:29:36 UTC</createdTime>
+<generatorID>A0208BD3-B10D-192E-AA0A-87F8303345E4</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<referedAttribute>C25B8DE7-5E21-5DD7-29DC-126A44309FE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61F03037-A366-B003-6386-1D359C3A716A" name="Nota PK">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-14 03:40:10 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FE33BD8-E727-C198-C84D-F94DD742F52F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

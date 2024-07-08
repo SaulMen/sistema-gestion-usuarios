@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79CC9681-7BB2-69D0-BB1F-A348599CAF3D" name="Simultaneidad">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Carrera_id_carrera" id="3BC979CB-80A6-B1DD-B94D-2A29B13A4912">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77D47267-1F33-4A67-B9BB-211028376CD0" referredColumn="B08C3458-E480-4755-F87D-6F112D1E10B1"/>
+</associations>
+</Column>
+<Column name="Estudiante_carnet" id="7E298E96-627F-2756-5832-23743EF71BB8">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4948D839-12F3-E6D4-6391-7CEB9819EF8C" referredColumn="682C655B-30EF-D255-727B-D65042EEF609"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9660A463-8752-FBB0-4309-9E83EAB47C7A" name="Simultaneidad_PK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BC979CB-80A6-B1DD-B94D-2A29B13A4912"/>
+<colUsage columnID="7E298E96-627F-2756-5832-23743EF71BB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79BB6C96-6CA8-B86F-C5FF-D20BECF03A47" name="Simultaneidad_Carrera_FK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>1EB8C7B6-5AD1-EA54-DE16-15EEDA35A47C</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BC979CB-80A6-B1DD-B94D-2A29B13A4912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98CC2CAF-6ED3-9D42-1848-2066E3BD1396" name="Simultaneidad_Estudiante_FK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>1EB8C7B6-5AD1-EA54-DE16-15EEDA35A47C</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E298E96-627F-2756-5832-23743EF71BB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

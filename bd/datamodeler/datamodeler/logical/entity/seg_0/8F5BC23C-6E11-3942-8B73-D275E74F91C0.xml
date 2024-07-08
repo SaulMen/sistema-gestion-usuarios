@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F5BC23C-6E11-3942-8B73-D275E74F91C0" name="Prerequisito">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-20 14:40:36 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_curso" id="16786900-CB6B-3386-2088-95FD0A70774B">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-20 14:42:34 UTC</createdTime>
+<generatorID>FC9E221C-6674-B950-F772-6E002FF1F1E6</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="true"/>
+</engineerTo>
+<referedAttribute>C25B8DE7-5E21-5DD7-29DC-126A44309FE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_pre_requisto" id="C00A4F64-FF30-65F8-20F4-BC9C7A3937C1">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-20 14:43:30 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CBF5D12-9142-0B90-9C21-9AE5326C8252" name="Prerequisito PK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-20 14:43:25 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16786900-CB6B-3386-2088-95FD0A70774B</attributeRef>
+<attributeRef>C00A4F64-FF30-65F8-20F4-BC9C7A3937C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

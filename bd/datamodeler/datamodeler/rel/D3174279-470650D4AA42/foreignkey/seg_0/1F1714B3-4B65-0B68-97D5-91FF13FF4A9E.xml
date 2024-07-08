@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F1714B3-4B65-0B68-97D5-91FF13FF4A9E" containerWithKeyObject="4ED53322-F65B-F97C-B93B-56C378E7DB4C" localFKIndex="0CF9B83E-C9F6-DB4D-B848-8B281A5542EF" name="Carrera_Nota_FK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>47270551-8A28-9AD7-D38F-E012DB493906</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>Nota</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C77E6D6-908F-2DB5-2776-0616BBBB895C</referredTableID>
+<keyObject>5B9F6B78-D51D-1C95-0A79-CA245283C6AA</keyObject>
+<referredKeyID>5B9F6B78-D51D-1C95-0A79-CA245283C6AA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nota</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

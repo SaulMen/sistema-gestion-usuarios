@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEB8C8C3-6111-C245-E055-0DE27E61B31E" name="Asignacion">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>E67EB48C-DB84-7B67-78DA-62EEFA8DD7B1</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_asignacion" id="81B98C8F-1C19-5285-9130-EDEAF61B7C0C">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>009813DD-32C9-95BE-8A41-B5A90F3CC3AC</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso_codigo_curso" id="B92921E8-E570-B839-040A-9182F878D8CB">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>77A79802-83B0-A8D1-E8FA-627884C3E982</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A8ACC29-87A0-B829-4F89-B63F9A90389A" referredColumn="392F6837-2B77-F7E7-EE78-813EC891A370"/>
+</associations>
+</Column>
+<Column name="ciclo" id="E4B81FB6-0460-57FF-5184-E010E07EAA11">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>509B376F-695B-77F5-483E-5360862CD3D9</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seccion" id="A8E6967C-9695-D67F-D771-3163A26F3D37">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>2EE2951B-325C-3B6A-726C-030B202FFDBE</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estudiante_carnet" id="6385AF59-251D-DFA2-D304-0E4938449BD3">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>DC66FD07-27CD-12F4-4D7B-2A9959CF8A30</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50995098-925F-3401-05C4-B6EE8151FE75" referredColumn="682C655B-30EF-D255-727B-D65042EEF609"/>
+</associations>
+</Column>
+<Column name="anio" id="00C28C46-A696-9509-0AC3-F8DB7E4B4905">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>1A3E60AD-89E8-3877-0110-875E00F34FAA</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Carrera_id_carrera" id="0E370E72-3B64-290A-6633-36A996948B07">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>08E42476-13B1-C5AA-1709-97B779F609B2</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD17487D-7212-A42F-EE6F-6D41D63A24A5" referredColumn="B08C3458-E480-4755-F87D-6F112D1E10B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1DBC02B-0201-DD6C-D58A-D6843364E890" name="Asignacion_PK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>A7842A21-0650-F59C-64EF-4AFAE5164CFC</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81B98C8F-1C19-5285-9130-EDEAF61B7C0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52BC623B-1B00-2173-8EAE-41514F96F4E2" name="Asignacion_Carrera_FK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>F9276B40-62CA-CCCB-FF81-399F3132A7ED</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E370E72-3B64-290A-6633-36A996948B07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F21BBB67-2844-5F68-60F2-5B1979EBF24B" name="Asignacion_Estudiante_FK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>874D736D-46E1-E823-CA38-E55939EE7902</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6385AF59-251D-DFA2-D304-0E4938449BD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15478C3D-790A-9F1A-6723-803455707519" name="Asignacion_Curso_FK">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 17:21:54 UTC</createdTime>
+<generatorID>696E5F48-0867-162E-50C2-1FBC08A23EC0</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B92921E8-E570-B839-040A-9182F878D8CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A448C22-E2D6-6C6F-059C-359E21DAEF3F" name="Desasignacion">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 21:31:57 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_desasignacion" id="DFB62565-86A1-6019-D4D1-C44B211C874C">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 21:39:37 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_curso" id="EBC47063-A0E5-62A8-C71A-FF22560A4692">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-18 06:51:09 UTC</createdTime>
+<generatorID>BCC858B6-6AE3-82AE-7D78-622C68A7628B</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<referedAttribute>C25B8DE7-5E21-5DD7-29DC-126A44309FE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="6BCACC29-C58A-7C9A-D82A-2CFBDF54B8FE">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 21:40:21 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seccion" id="390C9C7C-51AB-4A89-0E29-08324A08CEC5">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 21:40:34 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="carnet" id="4AB46D1E-F902-A365-DDD0-4D5DA47ABAE9">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-18 06:03:31 UTC</createdTime>
+<generatorID>F2B21ECF-08E2-7930-EB2E-07424BBB21E0</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<referedAttribute>2BFA3950-2D20-736D-277F-707B7A88BAAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="96CC61A3-C251-4175-AA6B-225A9BC2EDF9">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-20 06:16:17 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_carrera" id="63BD5634-2A9C-33DA-4AB5-0856BD7A1EAB">
+<createdBy>eddy</createdBy>
+<createdTime>2024-03-27 06:22:08 UTC</createdTime>
+<generatorID>350680CA-F4C3-1D62-36FE-C7F2B1828396</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<referedAttribute>6945EFA8-CDCA-0FE5-E6D7-51EAA66E66C8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="63EEB422-EB11-9E59-4F95-20D7FC58FE60" name="Desasignacion PK">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 21:39:53 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="535E0A8B-DCDA-A848-9188-C6F730DC3547" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DFB62565-86A1-6019-D4D1-C44B211C874C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

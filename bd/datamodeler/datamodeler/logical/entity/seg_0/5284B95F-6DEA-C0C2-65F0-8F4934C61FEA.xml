@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5284B95F-6DEA-C0C2-65F0-8F4934C61FEA" name="Acta">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 22:39:08 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_acta" id="5C46D39C-C9D1-BBD7-30C4-0FA31490B156">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 22:39:15 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="FF581713-E51D-3C9E-6AA8-7D8DDF3D752B">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 22:39:39 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seccion" id="EA434BDC-6DF3-3653-AC34-06B4445C64E8">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 22:40:34 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="BDBAFD31-6155-392E-4152-53029BA507BE">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 22:41:49 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_curso" id="7952BCD5-4EAE-20FB-4ECC-F1D949BEB0D6">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-18 06:52:14 UTC</createdTime>
+<generatorID>7485614E-FB7B-5FAE-67C6-C2A3723FA39B</generatorID>
+<ownerDesignName>datamodeler</ownerDesignName>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="true"/>
+</engineerTo>
+<referedAttribute>C25B8DE7-5E21-5DD7-29DC-126A44309FE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5FDDD05-7BF9-926F-3ADF-0A923FCEF103" name="Acta PK">
+<createdBy>eddy</createdBy>
+<createdTime>2023-10-13 22:40:58 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A1BB6D17-B076-27D8-1488-C689A263DBDA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C46D39C-C9D1-BBD7-30C4-0FA31490B156</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
