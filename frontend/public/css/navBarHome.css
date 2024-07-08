@@ -1,0 +1,74 @@
+/* Estilos para pantallas grandes */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+.brand {
+    flex-grow: 1;
+}
+
+.brand-text a {
+    display: block; /* Convertir el enlace en un bloque para que pueda tener ancho y alto */
+}
+
+.brand-logo {
+    max-width: 200px; /* Ancho máximo del logo */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.nav-links {
+    margin-left: auto; /* Desplaza el botón al extremo derecho */
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+}
+
+.login-button {
+    border: 2px solid #1B2845;
+    background: #1B2845;
+    color: #ffffff; /* Color de texto blanco */
+    padding: 8px 16px;
+    text-decoration: none; /* Elimina subrayado del enlace */
+}
+
+
+.login-button:hover {
+    border: 2px solid #f76a6a;
+    background: #f76a6a; /* Cambia el color de fondo al pasar el cursor */
+    color: #1B2845; /* Cambia el color del texto al pasar el cursor */
+}
+
+.login-button-home {
+    border: 2px solid #1B2845;
+    background: #1B2845;
+    color: #ffffff; /* Color de texto blanco */
+    padding: 8px 16px;
+    text-decoration: none; /* Elimina subrayado del enlace */
+}
+
+
+.login-button-home:hover {
+    border: 2px solid #8fc67f;
+    background: #8fc67f; /* Cambia el color de fondo al pasar el cursor */
+    color: #1B2845; /* Cambia el color del texto al pasar el cursor */
+}
+
+/* Media queries para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .brand-logo {
+        max-width: 150px; /* Reducir el ancho máximo del logo para pantallas más pequeñas */
+    }
+}

@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-background {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/*---------------------------------------------------------------------------------
+                            TIPOGRAFÍAS
+  ---------------------------------------------------------------------------------*/
+
+.btn-tipography {
+    color: #FCFAFA;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-title {
+    color: #274060;
+
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.label-text {
+    color: #274060;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+/*---------------------------------------------------------------------------------
+                            FONDOS DE ICONOS
+  ---------------------------------------------------------------------------------*/
+.icon {
+    width: 40%;
+    height: 60%;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*---------------------------------------------------------------------------------
+                            MENU DE OPCIONES 
+  ---------------------------------------------------------------------------------*/
+.menuContainer {
+    margin-top: 5%;
+    width: 100%;
+    height: 80vh;
+
+
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.menuOption {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    border-color: #65AFFF;
+    background-color: #335C81;
+    border-width: 2.5px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menuOption:hover,
+.btn-submit:hover {
+    border-radius: 10px;
+    border-color: #3A86FF;
+    background-color: #5899E2;
+    border-width: 5px;
+    cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------
+                            FORMULARIOS
+  ---------------------------------------------------------------------------------*/
+.form-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-style {
+    width: 80%;
+    height: 80%;
+    border: 1px solid rgba(255, 253, 253, 0.50);
+    background: linear-gradient(112deg, #FFFCFC 0%, rgba(252, 250, 250, 0.50) 100%);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.input-group {
+    width: 80%;
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.input-field {
+    width: 100%;
+    height: 100%;
+    /*text*/
+    color: #335C81;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-submit {
+    width: 80%;
+    height: 7vh;
+    border-radius: 15px;
+    background: #5899E2;
+    /*Text*/
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-hidden {
+    width: 80%;
+    height: 7vh;
+    border-radius: 15px;
+    background: #335C81;
+    /*Text*/
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-hidden:hover {
+    border-radius: 10px;
+    border-color: #1B2845;
+    background-color: #274060;
+    border-width: 5px;
+}
+
+.multiple-form-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.single-form {
+    width: 30%;
+    height: 90%;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.double-form-container {
+    width: 80%;
+    height: 90%;
+
+    border: 1px solid rgba(255, 253, 253, 0.50);
+    background: linear-gradient(112deg, #FFFCFC 0%, rgba(252, 250, 250, 0.50) 100%);
+    backdrop-filter: blur(5px);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.double-form {
+    width: 80%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 5%;
+    padding-top: 10px;
+}
+
+.triple-form {
+    width: 80%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 5%;
+    padding-top: 10px;
+}
+
+.two-columns-item {
+    grid-column: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.two-columns-fields {
+    width: 90%;
+    grid-column: 1/3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.three-columns-item {
+    width: 93.5%;
+    grid-column: 1/4;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.left-form {
+    border: 1px solid rgba(255, 253, 253, 0.50);
+    background: linear-gradient(112deg, #FFFCFC 0%, rgba(101, 175, 255, 0.50) 100%);
+    backdrop-filter: blur(5px);
+}
+
+.center-form {
+    border: 1px solid rgba(88, 153, 226, 0.50);
+    background: linear-gradient(112deg, #65AFFF 0%, rgba(88, 153, 226, 0.50) 100%);
+    backdrop-filter: blur(5px);
+}
+
+.right-form {
+    border: 1px solid rgba(255, 253, 253, 0.50);
+    background: linear-gradient(112deg, #5899E2 0%, rgba(27, 40, 69, 0.50) 100%);
+    backdrop-filter: blur(5px);
+}
+
+.div-icon {
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    border-color: #65AFFF;
+    background-color: #1B2845;
+    border-width: 2.5px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*---------------------------------------------------------------------------------
+                            TABLAS
+  ---------------------------------------------------------------------------------*/
+.table-container {
+    width: 98%;
+    background-color: blueviolet;
+    min-height: 86vh;
+    margin-top: 12vh;
+    margin-left: 1%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    border: 1px solid rgba(255, 253, 253, 0.50);
+    background: linear-gradient(112deg, #FFFCFC 0%, rgba(252, 250, 250, 0.50) 100%);
+    backdrop-filter: blur(5px);
+}
+
+.search-form {
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* padding: 10px; */
+
+}
+
+.table-style {
+    width: 100%;
+    padding: 5vh;
+}
+
+.table-header {
+    border: 2px solid #65AFFF;
+    background: #1B2845;
+    height: 5vh;
+
+    /*text*/
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.table-row {
+    /*text*/
+    color: #274060;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.table-row:hover {
+    background-color: #5899E2;
+    color: #F5F5F5;
+}
+
+.table-cell {
+    width: 100%;
+    height: 50%;
+    border: 2px solid #65AFFF;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*text*/
+    color: #274060;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+table tr th {
+    border: 2px solid #65AFFF;
+    text-align: center;
+}
+
+.btn-deassign {
+    background-image: url('../icons/deleteIcon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #FFFFFF;
+}
+
+.btn-deassign:hover {
+    cursor: pointer;
+}
+
+.btn-ok {
+    background-image: url('../icons/okIcon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #FFFFFF;
+}
+
+.btn-ok:hover {
+    cursor: pointer;
+}

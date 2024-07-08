@@ -1,0 +1,41 @@
+.slider {
+    position: relative;
+    width: 100%;
+    max-height: max-content; /* Puedes ajustar esta altura según tus necesidades */
+    overflow: hidden; /* Para asegurarse de que la imagen no se desborde */
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: block; /* Para eliminar el espacio adicional por defecto debajo de la imagen */
+}
+
+/* Media queries para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .slider {
+        max-height: 250px; /* Reduce la altura máxima en pantallas más pequeñas */
+    }
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+
+/* CSS PARA ADMIN HOME */

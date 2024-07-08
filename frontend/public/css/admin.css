@@ -1,0 +1,253 @@
+.admin-home {
+    text-align: center;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Margen superior e inferior */
+    padding: 20px; /* Espacio interno */
+    display: flex; /* Utilizar flexbox */
+    flex-direction: column; /* Apilar los elementos verticalmente */
+    justify-content: center; /* Centrar verticalmente */
+}
+
+
+.admin-title {
+    margin-top: 0;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Utiliza auto-fit */
+    gap: 20px; /* Espacio entre los botones */
+    margin-top: 20px;
+}
+
+.button-grid a {
+    text-decoration: none; /* Eliminar el subrayado predeterminado */
+}
+
+.button-grid-only {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.button-grid-only .button {
+    width: 250px; /* Establece el ancho deseado */
+    height: 150; /* Establece la altura deseada */
+    margin: 10px; /* Ajusta el margen entre los botones si es necesario */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button-grid-only .button img {
+    width: 80px; /* Tamaño deseado para la imagen */
+    height: 80px; /* Tamaño deseado para la imagen */
+    margin-bottom: 10px; /* Ajusta el margen inferior de la imagen */
+}
+
+.button {
+    background-color: #335C81;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button img {
+    width: 80px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #0F1C2B;
+    transform: translateY(-3px); /* Efecto de elevación al pasar el cursor */
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .button-grid {
+        grid-template-columns: repeat(2, minmax(200px, 1fr)); /* Dos botones por fila */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .button-grid {
+        grid-template-columns: repeat(1, minmax(200px, 1fr)); /* Un botón por fila */
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .admin-home {
+        padding: 0 10px; /* Espacio a los lados en pantallas de hasta 1200px de ancho */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .admin-home {
+        padding: 0 5px; /* Espacio a los lados en pantallas de hasta 768px de ancho */
+    }
+}
+
+
+/* ESTILOOS PARA EL ADMIN STUDENT */
+/* Estilos para el contenedor principal */
+.admin-student-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.admin-tasa-container {
+    /* Estilos para el contenedor principal */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Estilos para la imagen de fondo */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Estilos para el contenedor del formulario */
+.form-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 100%; /* Cambiar el tamaño del contenedor del formulario */
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.form-container-tasa {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 100%; /* Cambiar el tamaño del contenedor del formulario */
+    max-width: 1000px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los grupos de formulario */
+.form-group {
+    width: 48%; /* Ancho de cada grupo de formulario */
+}
+
+
+.form-group-only {
+    width: 65%; /* Ancho de cada grupo de formulario */
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="file"],
+input[type="number"],
+input[type="select"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón */
+.btn {
+    background-color: #5899E2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10 px;
+}
+
+.btn:hover {
+    background-color: #365f8d;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-group {
+        width: 100%;
+    }
+}
+
+
+/* Estilos TASA DE DESASIGNACION */
+/* Estilos para la tabla */
+.tabla-tasa {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilos para las celdas de la tabla */
+.tabla-tasa th,
+.tabla-tasa td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Estilos para las cabeceras de la tabla */
+.tabla-tasa th {
+    background-color: #1B2845;
+    color: #f2f2f2; /* Color del texto para los encabezados */
+}
+
+/* Estilos para las filas impares de la tabla */
+.tabla-tasa tbody tr:nth-child(odd) {
+    background-color: #dde7ff; /* Color de fondo para filas impares */
+}
+
+/* Estilos para las filas pares de la tabla */
+.tabla-tasa tbody tr:nth-child(even) {
+    background-color: #eff3fe; /* Color de fondo para filas pares */
+}

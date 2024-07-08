@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    ; /* background-color: #f0f8ff;Color de fondo */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.login-container img {
+    max-width: 100%;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+select {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    appearance: none; /* Esto es para eliminar los estilos de selección predeterminados del navegador */
+    background-color: #fff; /* Color de fondo */
+    color: #333; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilos para el efecto de hover */
+select:hover {
+    border-color: #999; /* Cambia el color del borde al pasar el ratón sobre el selector */
+}
+
+/* Estilos para el foco */
+select:focus {
+    border-color: #555; /* Cambia el color del borde cuando el selector está enfocado */
+    outline: none; /* Quita el resplandor predeterminado del foco */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #1B2845;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0F1C2B;
+}

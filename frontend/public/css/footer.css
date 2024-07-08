@@ -1,0 +1,34 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1B2845;
+    color: #ffffff;
+}
+
+.body-content {
+    margin-bottom: 60px; /* Ajusta según la altura de tu footer */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.footer-content p {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+/* Media queries para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        padding: 5px;
+    }
+}
