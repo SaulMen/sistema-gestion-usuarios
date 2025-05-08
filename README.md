@@ -1,10 +1,6 @@
 # Sistema de Gestión para una Entidad Educatica
 ____
 
-**Importante: Este proyecto fue desarrollado en grupo junto con [Eddy Fernando Díaz](https://github.com/codedyz), [Raúl Josue Castillo](https://github.com/rauljcastillo
-), [Angel Miguel García](https://github.com/Urizar-AG) y [Neidy Aracely Flores](https://github.com/Neidy22)**
-____
-
 Este repositorio contiene un sistema de gestión de usuarios con roles distintos (Administrador, Estudiante y Docente), implementado con una interfaz intuitiva para la selección de roles y gestión de usuarios, es un sistema para el control de cursos, carreras, creación de actas y notas simulando una entidad educativa. El proyecto se desarrolla utilizando la metodología Scrum y varias tecnologías para asegurar un desarrollo eficiente.
 
 #### **Acerca de:**
